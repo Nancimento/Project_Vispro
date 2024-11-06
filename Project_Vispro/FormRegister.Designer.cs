@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegister));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txt_Password = new System.Windows.Forms.TextBox();
             this.txt_Username = new System.Windows.Forms.TextBox();
+            this.txt_Password = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -47,15 +47,6 @@
             this.panel1.Size = new System.Drawing.Size(827, 439);
             this.panel1.TabIndex = 0;
             // 
-            // txt_Password
-            // 
-            this.txt_Password.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Password.Location = new System.Drawing.Point(221, 188);
-            this.txt_Password.Name = "txt_Password";
-            this.txt_Password.Size = new System.Drawing.Size(354, 30);
-            this.txt_Password.TabIndex = 2;
-            // 
             // txt_Username
             // 
             this.txt_Username.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -65,6 +56,15 @@
             this.txt_Username.Size = new System.Drawing.Size(354, 30);
             this.txt_Username.TabIndex = 1;
             // 
+            // txt_Password
+            // 
+            this.txt_Password.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Password.Location = new System.Drawing.Point(221, 188);
+            this.txt_Password.Name = "txt_Password";
+            this.txt_Password.Size = new System.Drawing.Size(354, 30);
+            this.txt_Password.TabIndex = 2;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -73,9 +73,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(138, 100);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 31);
+            this.label1.Size = new System.Drawing.Size(118, 31);
             this.label1.TabIndex = 0;
-            this.label1.Text = "LOGIN";
+            this.label1.Text = "REGISTER";
             // 
             // FormRegister
             // 
