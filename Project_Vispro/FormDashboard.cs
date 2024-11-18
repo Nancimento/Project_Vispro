@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Project_Vispro
 {
-    public partial class FormRegister : Form
+    public partial class FormDashboard: Form
     {
-        public FormRegister()
+        public FormDashboard()
         {
             InitializeComponent();
-        }
-
-        private void btn_Login_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

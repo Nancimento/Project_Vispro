@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegister));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_Login = new System.Windows.Forms.Button();
             this.txt_Username = new System.Windows.Forms.TextBox();
             this.txt_Password = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,6 +40,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Controls.Add(this.btn_Login);
             this.panel1.Controls.Add(this.txt_Username);
             this.panel1.Controls.Add(this.txt_Password);
             this.panel1.Controls.Add(this.label1);
@@ -46,6 +48,22 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(827, 439);
             this.panel1.TabIndex = 0;
+            // 
+            // btn_Login
+            // 
+            this.btn_Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_Login.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_Login.FlatAppearance.BorderSize = 0;
+            this.btn_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Login.Font = new System.Drawing.Font("Segoe UI Variable Text Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Login.ForeColor = System.Drawing.Color.White;
+            this.btn_Login.Location = new System.Drawing.Point(512, 246);
+            this.btn_Login.Name = "btn_Login";
+            this.btn_Login.Size = new System.Drawing.Size(91, 40);
+            this.btn_Login.TabIndex = 5;
+            this.btn_Login.Text = "Login";
+            this.btn_Login.UseVisualStyleBackColor = false;
+            this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
             // 
             // txt_Username
             // 
@@ -99,5 +117,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_Username;
         private System.Windows.Forms.TextBox txt_Password;
+        private System.Windows.Forms.Button btn_Login;
     }
 }
