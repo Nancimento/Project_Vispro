@@ -16,5 +16,23 @@ namespace Project_Vispro
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Formlapangan formlapangan = new Formlapangan();
+            formlapangan.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            FormPembayaran formPembayaran = new FormPembayaran();
+            formPembayaran.Show();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            FormRiwayat formRiwayat = new FormRiwayat();
+            formRiwayat.Show();
+        }
     }
 }

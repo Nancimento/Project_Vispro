@@ -16,5 +16,11 @@ namespace Project_Vispro
         {
             InitializeComponent();
         }
+
+        private void btn_Login_Click(object sender, EventArgs e)
+        {
+            FormDashboard formDashboard = new FormDashboard();
+            formDashboard.Show();
+        }
     }
 }
