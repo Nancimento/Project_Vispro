@@ -118,9 +118,9 @@
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.panel3);
-            this.panel1.Location = new System.Drawing.Point(189, 181);
+            this.panel1.Location = new System.Drawing.Point(195, 222);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1081, 571);
+            this.panel1.Size = new System.Drawing.Size(1027, 484);
             this.panel1.TabIndex = 26;
             // 
             // label3
@@ -142,7 +142,7 @@
             this.panel3.Controls.Add(this.label15);
             this.panel3.Controls.Add(this.label13);
             this.panel3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel3.Location = new System.Drawing.Point(68, 47);
+            this.panel3.Location = new System.Drawing.Point(74, 66);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(587, 66);
             this.panel3.TabIndex = 12;
@@ -186,7 +186,7 @@
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label6);
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel2.Location = new System.Drawing.Point(68, 128);
+            this.panel2.Location = new System.Drawing.Point(74, 147);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(587, 66);
             this.panel2.TabIndex = 13;
@@ -230,7 +230,7 @@
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label11);
             this.panel4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel4.Location = new System.Drawing.Point(68, 209);
+            this.panel4.Location = new System.Drawing.Point(74, 228);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(587, 66);
             this.panel4.TabIndex = 14;
@@ -274,7 +274,7 @@
             this.panel5.Controls.Add(this.label14);
             this.panel5.Controls.Add(this.label16);
             this.panel5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel5.Location = new System.Drawing.Point(68, 281);
+            this.panel5.Location = new System.Drawing.Point(74, 300);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(587, 66);
             this.panel5.TabIndex = 14;
@@ -318,7 +318,7 @@
             this.panel6.Controls.Add(this.label19);
             this.panel6.Controls.Add(this.label20);
             this.panel6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel6.Location = new System.Drawing.Point(68, 353);
+            this.panel6.Location = new System.Drawing.Point(74, 372);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(587, 66);
             this.panel6.TabIndex = 14;
