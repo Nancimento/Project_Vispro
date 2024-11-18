@@ -94,6 +94,12 @@
     <Compile Include="FormRiwayat.Designer.cs">
       <DependentUpon>FormRiwayat.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSewa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSewa.Designer.cs">
+      <DependentUpon>FormSewa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormDashboard.resx">
